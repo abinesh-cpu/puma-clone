@@ -1,3 +1,7 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
 .main{
     display: flex;
     flex: 4;
@@ -6,6 +10,7 @@
     background-color: black;
     position: fixed;
 }
+
 .main ul{
     display: flex;
     align-items: center;
@@ -15,6 +20,7 @@
     color: white;
     font-weight: 600;
 }
+
 .top{
     height: 30px;
     width: 100%;
@@ -22,6 +28,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .offer{
     margin-top: 70px;
     height: 50px;
@@ -29,11 +36,294 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: violet;
+    /* background-color: violet; */
     flex-direction: column;
 }
+
 .image1{
-    height: 80vh;
+    height: 61vh;
     width: 100%;
-    background-color: blue;
+    background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/bf98b569df7849bab6501f1e78d810cda9fcac58-6000x2167.jpg?w=1440&q=80&auto=format");
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.virat{
+    color: white;
+    padding-left: 100px;
+}
+
+.buttons_in_virat .shop{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+    border: 1px;
+}
+
+.buttons_in_virat{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.spotlight{
+    /* background-color: aquamarine; */
+    margin: 20px;
+    padding: 0%;
+    /* height: 0; */
+}
+
+.axis img{
+    width: 100%;
+    height: 35px;
+    object-fit: cover;
+    margin: 0%;
+    padding: 0%;
+}
+
+.shoes {
+    background-color: white;
+    display: flex;
+    overflow: scroll;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+.shoes .img_div {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    display: block;
+    background-color: white;
+}
+
+.shoes .img_div img{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.next{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.next .people{
+    flex-grow: 1;
+    margin: 10px;
+    /* background-color: yellowgreen; */
+}
+
+.next .people img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.girlvid{
+    width: 100%;
+    height: 520px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.girlvid video{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.girlvid .as1{
+    z-index: 1;
+    position: relative;
+    top: 63%;
+    text-align: right;
+    margin-right: 60px;
+}
+
+.as{
+    margin-top: 20px;
+}
+
+.lookvirat{
+    text-align: center;
+}
+
+.lookvirat h1{
+    font-size: 35px;
+    margin-top: 90px;
+}
+
+.virat_img #shoe{
+    font-weight: 1;
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+
+.lookvirat h3{
+    font-weight: 10;
+    margin-bottom: 70px;
+}
+
+.virat_img_collection{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    width: 100%;
+    padding-bottom: 70px;
+    /* height: 500px; */
+}
+
+.virat_img{
+    /* background-color: red; */
+    flex-grow: 1;
+    margin: 10px;
+    /* height: 400px; */
+    text-align: center;
+}
+
+.virat_img img{
+    width: 100%;
+    height: 590px;
+    object-fit: cover;
+}
+
+.fenty{
+    width: 100%;
+    /* background-color: red; */
+    height: 61vh;
+    background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/fdf7ae4f2b19160691ebff53bb0e8507fadee679-6000x2167.jpg?w=2160&q=80&auto=format");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.fenty h4,h6{
+    color: white;
+    margin: 2.5px;
+    margin-left: 70px;
+}
+
+.fenty .as{
+    margin-left: 70px;
+}
+
+.fenty .as a{
+    background-color: white;
+    color: black;
+}
+
+.MMQ{
+    width: 100%;
+    /* background-color: yellow; */
+    height: 61vh;
+    background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/5303e7c57fb2e11b70ff9db5843cec37e87593ca-6000x2167.jpg?w=2160&q=80&auto=format");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.MMQ h1{
+    margin: 0%;
+    padding: 0%;
+}
+
+.MMQ h3{
+    margin-bottom: 26px;
+    font-weight: 1;
+}
+
+.speedcat{
+    width: 100%;
+    /* background-color: red; */
+    height: 61vh;
+    background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/0286e218c99ceda49946ac06705a30d2fea6528e-6000x2167.jpg?w=2160&q=80&auto=format");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.speedcat h1{
+    margin: 0%;
+    padding: 0%;
+}
+
+.speedcat h3{
+    margin-bottom: 26px;
+    font-weight: 1;
+}
+
+.shirt{
+    text-align: center;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+ }
+ .footeritms{
+    color: rgb(172, 175, 177);
+    text-decoration: none;
+
+ }
+ footer{
+    display: flex;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(162, 162, 162);
+    font-size: small;
+}
+footer h6{
+    font-weight: bold;
+}
+footer  a:hover{
+    color: white;
+}
+footer img{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+h3,h4,h1{
+    margin: 2.5px;
+    padding: 0%;
+}
+
+.l{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
